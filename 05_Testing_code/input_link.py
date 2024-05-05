@@ -48,7 +48,7 @@ def extract_paragraphs_from_link(url):
 
 if __name__ == "__main__":
 
-    news_link = "https://timesofindia.indiatimes.com/city/kolkata/didi-dares-pm-narendra-modi-to-debate-her-on-basics-of-hinduism/articleshow/109851621.cms"
+    news_link = "https://www.bbc.com/sport/cricket/articles/c1d4jyk300do"
     paragraph = extract_paragraphs_from_link(news_link)
     print('paragraph: ', paragraph)
 
