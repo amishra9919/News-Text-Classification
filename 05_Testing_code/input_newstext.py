@@ -1,10 +1,12 @@
+import os
 import re
 import joblib
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-
-model = joblib.load("model.pkl")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(current_dir, '..', '04_Trained_models', 'TFIDF_SVM.pkl')
+model = joblib.load(model_path) 
 
 def preprocess_text(text):
     text = text.lower()
