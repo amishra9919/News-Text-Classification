@@ -32,5 +32,10 @@ Use the scripts in 05_Testing_code to test the trained models either with news a
 ## **Requirements**
 Python Libraries: numpy, pandas, scikit-learn, gensim (for Word2Vec), nltk (for text preprocessing), beautifulsoup4 (for web scraping)
 
-Install the required Python libraries:
+1. Install the required Python libraries:
 `pip install -r requirements.txt`
+
+2. You just need to paste the input article links in input_link.py
+
+## **Results**
+![Alt text](image.png)
